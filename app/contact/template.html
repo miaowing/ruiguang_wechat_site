@@ -1,0 +1,11 @@
+<div id="contact">
+    <div class="bottom-layer" transition="slide-in" v-show="showInfo">
+        <ul>
+            <li v-for="info in infos">
+                <span class="item-key">{{info.key}}</span>
+                <span class="item-value" v-if="info.values" v-for="value in info.values">{{value}}</span>
+                <span class="item-value" v-if="info.value">{{info.value}}</span>
+            </li>
+        </ul>
+    </div>
+</div>

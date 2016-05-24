@@ -1,0 +1,44 @@
+body {
+  background: #f6f6f6;
+}
+
+.bottom-layer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #eee;
+  background: rgba(255, 255, 255, 0.5);
+
+  li {
+    padding: 5px 20px;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  .item-key {
+    width: 100%;
+  }
+
+  .item-value {
+    margin-top: 5px;
+    color: #666;
+  }
+}
+
+.slide-in-enter {
+  animation: slide-in .5s;
+}
+
+@keyframes slide-in {
+  0% {
+    bottom: -300px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
