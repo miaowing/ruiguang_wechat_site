@@ -3,11 +3,18 @@
  */
 import Vue from 'vue';
 import Template from './template.html';
+import {companyDescription} from '../../config/description';
+
+// global style
+import '../index.less';
+
+// single style
+import './style.less';
 
 new Vue({
     el: '#app',
     template: Template,
     data: {
-        message: '走进瑞光,公司介绍'
+        companyDescription: companyDescription
     }
-})
+});

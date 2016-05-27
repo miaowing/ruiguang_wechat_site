@@ -37,6 +37,10 @@ var config = {
     },
     module: {
         loaders: [
+            // {
+            //     test: /\.(png|jpeg|gif)$/,
+            //     loader: 'file-loader?name=../images/[name].[ext]'
+            // },
             {
                 test: /\.vue$/,
                 loader: 'vue'
@@ -57,7 +61,7 @@ var config = {
             },
             {
                 test: /\.(jpg|png|svg|woff2|woff|eot|ttf)$/,
-                loader: "url?limit=8192"
+                loader: "url?limit=8192000"
             },
             {
                 test: /\.json$/,

@@ -3,11 +3,18 @@
  */
 import Vue from 'vue';
 import Template from './template.html';
+import {courses} from '../../config/course';
+
+// global style
+import '../index.less';
+
+// single style
+import './style.less';
 
 new Vue({
     el: '#app',
     template: Template,
     data: {
-        message: '走进瑞光,发展历程'
+        courses: courses
     }
-})
+});

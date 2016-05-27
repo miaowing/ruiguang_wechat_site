@@ -1,13 +1,19 @@
-body {
+body, html {
   background: #f6f6f6;
+  height: 100%;
+}
+
+#contact {
+  background: data-uri("../../build/images/info_bg.png") no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .bottom-layer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  border: 1px solid #eee;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.8);
 
   li {
     padding: 5px 20px;
@@ -19,11 +25,11 @@ body {
 
   .item-key {
     width: 100%;
+    color: #000;
   }
 
   .item-value {
     margin-top: 5px;
-    color: #666;
   }
 }
 

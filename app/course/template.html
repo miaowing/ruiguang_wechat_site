@@ -1,3 +1,13 @@
-<div id="home">
-    {{message}}
+<div id="course">
+    <div class="course-item" v-for="(index, course) in courses">
+        <div class="marker">
+            <div :class="{ 'date-left': course.position == 'left', 'date-right': course.position == 'right' }">{{course.date}}</div>
+        </div>
+        <div class="item" :class="{ 'item-left': course.position == 'right', 'item-right': course.position == 'left' }">
+            <div :class="{'triangle-left': course.position == 'left', 'triangle-right': course.position == 'right' }">
+                <em></em><span></span>
+            </div>
+            <div :class="{ 'content-left': course.position == 'right', 'content-right': course.position == 'left' }">{{course.content}}</div>
+        </div>
+    </div>
 </div>
