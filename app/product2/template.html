@@ -1,0 +1,16 @@
+<div id="product">
+    <div id='slider' class='swipe'>
+        <div class='swipe-wrap'>
+            <div v-for="img in product.imgs" v-html="img" track-by="$index"></div>
+        </div>
+    </div>
+    <div class="description">
+        <p>{{product.description}}</p>
+    </div>
+    <ul class="detail-params">
+        <li v-for="param in product.params">
+            <span class="key">{{param.key}}:</span>
+            <span class="value">{{param.value}}</span>
+        </li>
+    </ul>
+</div>

@@ -1,3 +1,8 @@
-<div id="home">
-    {{message}}
+<div id="honor" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+    <ul class="honor-list">
+        <li v-for="honor in honors">
+            <img v-bind:src="honor.img">
+            <h3>{{honor.title}}</h3>
+        </li>
+    </ul>
 </div>

@@ -8,7 +8,7 @@
  * 公司介绍
  * 例子:
  * （1）图片
- *  <img src="图片地址"> //图片应放到build/images文件夹下边, 图片地址为../images/xxx.png
+ *  <img src="图片地址"> //图片应放到build/images文件夹下边, 图片地址为./images/xxx.png
  *
  *  (2) 文字
  *  <p>文字部分</p>

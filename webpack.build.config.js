@@ -27,6 +27,18 @@ var config = {
         location: [
             path.resolve(__dirname, 'app/location/index.js')
         ],
+        product1: [
+            path.resolve(__dirname, 'app/product1/index.js')
+        ],
+        product2: [
+            path.resolve(__dirname, 'app/product2/index.js')
+        ],
+        product3: [
+            path.resolve(__dirname, 'app/product3/index.js')
+        ],
+        product4: [
+            path.resolve(__dirname, 'app/product4/index.js')
+        ],
         lib: ['vue']
     },
     output: {

@@ -34,6 +34,22 @@ var config = {
             'webpack/hot/dev-server',
             path.resolve(__dirname, 'app/location/index.js')
         ],
+        product1: [
+            'webpack/hot/dev-server',
+            path.resolve(__dirname, 'app/product1/index.js')
+        ],
+        product2: [
+            'webpack/hot/dev-server',
+            path.resolve(__dirname, 'app/product2/index.js')
+        ],
+        product3: [
+            'webpack/hot/dev-server',
+            path.resolve(__dirname, 'app/product3/index.js')
+        ],
+        product4: [
+            'webpack/hot/dev-server',
+            path.resolve(__dirname, 'app/product4/index.js')
+        ],
         lib: ['vue']
     },
     output: {
