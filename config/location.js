@@ -25,16 +25,16 @@ export let markerY = -40;
  * 地图标记的X坐标
  * @type {string}
  */
-export let x = 121.702416;
+export let x = 121.709114;
 
 /**
  * 地图标记的Y坐标
  * @type {string}
  */
-export let y = 39.106899;
+export let y = 39.153267;
 
 /**
  * 地图默认缩放级别(级别越大显示越详细)
  * @type {string}
  */
-export let zoom = 18;
+export let zoom = 17;

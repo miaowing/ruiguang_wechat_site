@@ -39,3 +39,5 @@ export let infos = [
         ]
     }
 ];
+
+export let backgroundImage = './images/info_bg.png';

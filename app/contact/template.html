@@ -1,5 +1,6 @@
-<div id="contact">
-    <div class="bottom-layer" transition="slide-in" v-show="showInfo">
+<div id="contact" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+    <img v-bind:src="backgroundImage">
+    <div class="bottom-layer" v-show="showInfo">
         <ul>
             <li v-for="info in infos">
                 <span class="item-key">{{info.key}}</span>

@@ -3,12 +3,26 @@ body {
 }
 
 #device {
-  margin: 10px 15px;
+  //margin: 10px 15px;
+  ul {
+    box-sizing: border-box;
 
+    &.device-left {
+      width: 50%;
+      float: left;
+    }
+
+    &.device-right {
+      width: 50%;
+      float: left;
+    }
+  }
   li {
+    box-sizing: border-box;
+    position: relative;
     background-color: #fff;
     padding: 5px;
-    margin-bottom: 10px;
+    //margin-bottom: 10px;
     border: 1px solid #eeeeee;
     border-radius: 4px;
   }

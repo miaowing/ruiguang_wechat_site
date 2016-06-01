@@ -3,7 +3,7 @@
  */
 import Vue from 'vue';
 import Template from './template.html';
-import {infos} from '../../config/contact';
+import {infos, backgroundImage} from '../../config/contact';
 
 // global style
 import '../index.less';
@@ -16,6 +16,7 @@ new Vue({
     template: Template,
     data: {
         infos: infos,
+        backgroundImage: backgroundImage,
         showInfo: false
     },
     compiled: function () {

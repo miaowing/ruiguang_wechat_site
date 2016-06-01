@@ -15,12 +15,12 @@ export let devices = [
         title: '可冲散水刺法非织造布生产线'
     },
     {
-        img: './images/device/shuangliuliji.png',
-        title: '双琉璃机高速水刺生产线'
-    },
-    {
         img: './images/device/gaosushuici.png',
         title: '高速水刺生产线'
+    },
+    {
+        img: './images/device/shuangliuliji.png',
+        title: '双梳璃机高速水刺生产线'
     },
     {
         img: './images/device/baoxingshuici.png',
@@ -31,12 +31,12 @@ export let devices = [
         title: '木浆纸复合法水刺生产线'
     },
     {
-        img: './images/device/qiliuchengwang.png',
-        title: '气流成网三层复合水刺生产线'
-    },
-    {
         img: './images/device/rongpenfa.png',
         title: '熔喷法生产线'
+    },
+    {
+        img: './images/device/qiliuchengwang.png',
+        title: '气流成网三层复合水刺生产线'
     },
     {
         img: './images/device/fangzhanfa.png',

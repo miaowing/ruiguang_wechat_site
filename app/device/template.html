@@ -1,14 +1,25 @@
 <div id="device" xmlns:v-bind="http://www.w3.org/1999/xhtml">
     <ul>
-        <li v-for="device in devices">
-            <img v-bind:src="device.img" v-if="!device.imgs">
-            <div class='swipe slider' v-if="device.imgs">
+        <li>
+            <div class='swipe slider'>
                 <div class='swipe-wrap'>
-                    <div v-for="img in device.imgs" track-by="$index">
+                    <div v-for="img in devices[0].imgs" track-by="$index">
                         <img v-bind:src="img">
                     </div>
                 </div>
             </div>
+            <h3>{{devices[0].title}}</h3>
+        </li>
+    </ul>
+    <ul class="device-left">
+        <li v-for="device in devices" class="device-{{$index}}" v-if="$index % 2 == 1 && $index != 0">
+            <img v-bind:src="device.img">
+            <h3>{{device.title}}</h3>
+        </li>
+    </ul>
+    <ul class="device-right">
+        <li v-for="device in devices" class="device-{{$index}}" v-if="$index % 2 == 0 && $index != 0">
+            <img v-bind:src="device.img">
             <h3>{{device.title}}</h3>
         </li>
     </ul>
