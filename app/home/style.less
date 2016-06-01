@@ -1,0 +1,41 @@
+body {
+  background-color: #f6f6f6;
+}
+
+#home {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .panel {
+    background-color: #fff;
+
+    &:after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+  }
+
+  .item {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    text-align: center;
+
+    &.item-left {
+      border-right: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+    }
+
+    &.item-right {
+      border-bottom: 1px solid #eee;
+    }
+
+    a {
+      display: block;
+      padding: 40px 0;
+    }
+  }
+}

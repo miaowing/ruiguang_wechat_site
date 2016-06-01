@@ -1,4 +1,14 @@
 <div id="honor" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+    <div class="honor-slide">
+        <div id="slider" class='swipe slider'>
+            <div class='swipe-wrap'>
+                <div v-for="slide in slides" track-by="$index">
+                    <img v-bind:src="slide.img">
+                    <span>{{slide.title}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <ul class="honor-list">
         <li v-for="honor in honors">
             <img v-bind:src="honor.img">

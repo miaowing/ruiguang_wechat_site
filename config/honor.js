@@ -33,3 +33,26 @@ export let honors = [
         title: 'ANFA会员单位'
     }
 ];
+
+/**
+ * 轮播图列表
+ * @type {*[]}
+ */
+export let slides = [
+    {
+        img: './images/honor/honor-1.png',
+        title: '全国政协副主席、全国工商联名誉主席黄孟复先生莅临瑞光参观指导'
+    },
+    {
+        img: './images/honor/honor-2.png',
+        title: '中央政治委员、中央统战部长孙春兰女士莅临瑞光参观指导'
+    },
+    {
+        img: './images/honor/honor-3.png',
+        title: '大连市市委书记唐军先生、市长肖盛峰先生莅临瑞光参观指导'
+    },
+    {
+        img: './images/honor/honor-4.png',
+        title: '瑞光团队'
+    }
+];
