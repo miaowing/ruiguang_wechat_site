@@ -1,13 +1,23 @@
-<div id="home" xmlns:v-bind="http://www.w3.org/1999/xhtml">
-    <img v-bind:src="img">
-    <div class="panel">
-        <div class="row">
-            <div class="item item-left"><a href="./description.html">公司介绍</a></div>
-            <div class="item item-right"><a href="./course.html">发展历程</a></div>
+<div class="home">
+    <div id="home" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+        <div class="logo">
+            <img v-bind:src="logoImg">
         </div>
-        <div class="row">
-            <div class="item item-left"><a href="./device.html">装备设备</a></div>
-            <div class="item item-right"><a href="./honor.html">荣誉资质</a></div>
+        <img v-bind:src="img">
+        <div class="panel">
+            <div class="row">
+                <div class="item item-left"><a href="./description.html">公司介绍</a></div>
+                <div class="item item-right"><a href="./course.html">发展历程</a></div>
+            </div>
+            <div class="row">
+                <div class="item item-left"><a href="./device.html">装备设备</a></div>
+                <div class="item item-right"><a href="./honor.html">荣誉资质</a></div>
+            </div>
+        </div>
+
+        <img class="bottom-img" v-bind:src="bottomImg">
+        <div class="footer">
+            大连瑞光非织造布集团有限公司
         </div>
     </div>
 </div>
