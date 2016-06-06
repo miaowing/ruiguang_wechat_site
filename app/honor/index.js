@@ -4,7 +4,7 @@
 import Vue from 'vue';
 import Template from './template.html';
 import Swipe from 'swipe-js';
-import {honors, slides} from '../../config/honor';
+import {honors, honors2, slides} from '../../config/honor';
 
 // global style
 import '../index.less';
@@ -18,6 +18,7 @@ new Vue({
     data: {
         message: '走进瑞光,荣誉资质',
         honors: honors,
+        honors2: honors2,
         slides: slides
     },
     ready: function () {

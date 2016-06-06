@@ -3,26 +3,45 @@
  * Created by zhaofeng on 16/5/28.
  */
 
+export let honors2 = [
+    {
+        img: './images/honor/1-5.png',
+        title: 'test'
+    },
+    {
+        img: './images/honor/1-6.png',
+        title: 'test'
+    },
+    {
+        img: './images/honor/1-7.png',
+        title: 'test'
+    }
+];
+
 /**
- * 荣誉资质列表
+ * 荣誉资质列表 (竖)
  * @type {*[]}
  */
 export let honors = [
     {
-        img: './images/honor/1.jpg',
-        title: '2011-2012年度中国纺织服装企业'
+        img: './images/honor/1-1.png',
+        title: '竞争力20强企业'
+    },
+    {
+        img: './images/honor/1-2.png',
+        title: '名优品牌单位'
+    },
+    {
+        img: './images/honor/1-3.png',
+        title: '管理创新成果大奖'
+    },
+    {
+        img: './images/honor/1-4.png',
+        title: '产品开发贡献将'
     },
     {
         img: './images/honor/2.jpg',
         title: '中国非织造布十强企业'
-    },
-    {
-        img: './images/honor/3.jpg',
-        title: '十强企业'
-    },
-    {
-        img: './images/honor/4.jpg',
-        title: '高新技术企业'
     },
     {
         img: './images/honor/5.jpg',

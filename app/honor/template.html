@@ -9,6 +9,12 @@
             </div>
         </div>
     </div>
+    <ul class="honor-list-horizontal">
+        <li v-for="honor in honors2">
+            <img v-bind:src="honor.img">
+            <h3>{{honor.title}}</h3>
+        </li>
+    </ul>
     <ul class="honor-list">
         <li v-for="honor in honors">
             <img v-bind:src="honor.img">

@@ -9,8 +9,8 @@
  */
 export let spProduct = {
     imgs: [
-        `<img src="./images/product/2.1.png">`,
-        `<img src="./images/product/2.2.png">`
+        `<img src="./images/product/2.2.png">`,
+        `<img src="./images/product/2.1.png">`
     ],
     description: `
         将湿法形成的木浆纤维直接通过水刺种植至纺粘产品的空隙中，产品经过高温花纹热轧机后，既具备了纺织面料的特点，又不掉绒，既形成了超高的吸液能力，又有高强力作为支撑,是医用、工业理想擦布产品。
@@ -63,7 +63,7 @@ export let kechongsan = {
         },
         {
             title: '提花可冲散产品',
-            img: `<img src="./images/product/1.3.png">`,
+            img: `<img src="./images/product/1.4.png">`,
             description: `
                 通过提花的方式，既增强了产品的布感和美感，又提高了产品的可冲散性能,是一款有特色的可冲散产品。
             `,
@@ -98,14 +98,14 @@ export let shuiciProduct = {
     detail: [
         {
             title: '水刺平纹产品',
-            img: `<img src="./images/product/3.3.png">`,
+            img: `<img src="./images/product/3.1.png">`,
             description: `
                 其采用粘胶、涤纶、双组份纤维、超细纤维以及竹纤维、天丝纤维等不同原材料，满足客户不同用途的各种功能性产品需求。
             `
         },
         {
             title: '水刺网孔产品',
-            img: `<img src="./images/product/3.3.png">`,
+            img: `<img src="./images/product/3.2.png">`,
             description: `
                 采用17目、22目网孔产品，增加产品的透气性能和擦拭的摩擦力和表面积。
             `
@@ -120,7 +120,7 @@ export let shuiciProduct = {
         },
         {
             title: 'CPC/CSPC/CSC/FfPC多层复合产品',
-            img: `<img src="./images/product/3.3.png">`,
+            img: `<img src="./images/product/3.4.png">`,
             description: `
                 梳理纤网，气流成网绒毛浆，其它类别的非织造布通过水刺方式结合，再辅以提花图案，体现产品的超强吸水性，高强力不变形、提花立体感强等特点。
             `,

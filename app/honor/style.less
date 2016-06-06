@@ -41,6 +41,41 @@ body {
     }
   }
 
+  .honor-list-horizontal {
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 15px;
+
+    li {
+      box-sizing: border-box;
+      width: 30%;
+      float: left;
+      margin-right: 5%;
+
+      img {
+        width: 100%;
+      }
+
+      h3 {
+        font-size: 12px;
+        font-weight: normal;
+        text-align: center;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
   .honor-list {
     margin: 5px;
     background-color: #fff;
