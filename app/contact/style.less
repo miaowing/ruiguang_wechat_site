@@ -7,21 +7,34 @@ body, html {
   height: 100%;
 
   .bg {
-    background: data-uri("../../build/images/info_bg.png") no-repeat;
+    background: data-uri("../../build/images/contact_bg.jpg") no-repeat;
     background-size: 100%;
     width: 100%;
     height: 100%;
   }
 }
 
+.top-layer {
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), #fff); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), #fff); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), #fff); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), #fff); /* 标准的语法（必须放在最后） */
+  position: absolute;
+  top:0;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+
 .bottom-layer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.7), #fff, #fff); /* Safari 5.1 - 6.0 */
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.7), #fff, #fff); /* Opera 11.1 - 12.0 */
-  background: -moz-linear-gradient(rgba(255, 255, 255, 0.7), #fff, #fff); /* Firefox 3.6 - 15 */
-  background: linear-gradient(rgba(255, 255, 255, 0.7), #fff, #fff); /* 标准的语法（必须放在最后） */
+  z-index: 200;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), #fff, #fff); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.1), #fff, #fff); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0.1), #fff, #fff); /* Firefox 3.6 - 15 */
+  background: linear-gradient(rgba(255, 255, 255, 0.1), #fff, #fff); /* 标准的语法（必须放在最后） */
 
   li {
     padding: 5px 20px;
@@ -37,7 +50,7 @@ body, html {
   }
 
   .item-value {
-    margin-top: 5px;
+    margin-top: 15px;
   }
 }
 
