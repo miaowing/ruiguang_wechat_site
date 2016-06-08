@@ -3,18 +3,22 @@
  * Created by zhaofeng on 16/5/28.
  */
 
+/**
+ * 荣誉资质列表 (横)
+ * @type {*[]}
+ */
 export let honors2 = [
     {
         img: './images/honor/1-5.png',
-        title: 'test'
+        title: 'FSC认证'
     },
     {
         img: './images/honor/1-6.png',
-        title: 'test'
+        title: 'ISO9001认证'
     },
     {
         img: './images/honor/1-7.png',
-        title: 'test'
+        title: 'ISO14001认证'
     }
 ];
 
