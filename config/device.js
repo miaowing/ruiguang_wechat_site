@@ -20,7 +20,7 @@ export let devices = [
     },
     {
         img: './images/device/shuangliuliji.png',
-        title: '双梳璃机高速水刺生产线'
+        title: '双梳理机高速水刺生产线'
     },
     {
         img: './images/device/baoxingshuici.png',

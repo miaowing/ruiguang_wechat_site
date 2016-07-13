@@ -39,6 +39,9 @@ var config = {
         product4: [
             path.resolve(__dirname, 'app/product4/index.js')
         ],
+        product5: [
+            path.resolve(__dirname, 'app/product5/index.js')
+        ],
         lib: ['vue']
     },
     output: {

@@ -50,6 +50,10 @@ var config = {
             'webpack/hot/dev-server',
             path.resolve(__dirname, 'app/product4/index.js')
         ],
+        product5: [
+            'webpack/hot/dev-server',
+            path.resolve(__dirname, 'app/product5/index.js')
+        ],
         lib: ['vue']
     },
     output: {

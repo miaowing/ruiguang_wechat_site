@@ -1,0 +1,21 @@
+<div id="product">
+    <div class="title">{{product.title}}</div>
+    <div v-html="product.img"></div>
+    <ul class="detail-params">
+        <li v-for="feature in product.feature">
+            <span>{{$index+1}}, {{feature}}</span>
+        </li>
+    </ul>
+    <ul class="detail-params">
+        <li v-for="param in product.params">
+            <span class="key">{{param.key}}:</span>
+            <span class="value">{{param.value}}</span>
+        </li>
+    </ul>
+    <div class="product-item" v-for="detail in product.detail">
+        <h3>{{detail.title}}</h3>
+        <div v-html="detail.img"></div>
+        <p class="product-description" v-html="detail.description"></p>
+        <p v-if="detail.type"><span>产品品种:</span>{{detail.type}}</p>
+    </div>
+</div>

@@ -18,7 +18,7 @@ export let spProduct = {
     params: [
         {
             key: '生活用品',
-            value: '揩步、湿面巾、肉类垫步、厨房擦布等。'
+            value: '揩布、湿面巾、肉类垫布、厨房擦布等。'
         },
         {
             key: '医疗卫生',
@@ -84,7 +84,7 @@ export let shuiciProduct = {
     params: [
         {
             key: '生活用品',
-            value: '揩步、湿面巾、压缩毛巾、面膜、婴儿擦布、卫生巾及纸尿裤面料'
+            value: '揩布、湿面巾、压缩毛巾、面膜、婴儿擦布、卫生巾及纸尿裤面料'
         },
         {
             key: '医疗卫生',
@@ -177,6 +177,50 @@ export let fangrongProduct = {
             description: `
                 淋膜、胶合、热轧复合产线可生产多重复合材料，可以将纺粘产品、水刺产品、熔喷产品与透气膜、生活用纸、PE膜通过淋膜、胶合、热轧的方式复合。
             `
+        }
+    ]
+};
+
+
+/**
+ * 新品推荐
+ * @type {{description: string, params: *[], detail: *[]}}
+ */
+export let latestProduct = {
+    img: `<img src="./images/product/5.1.png">`,
+    title: 'CSPC复合产品',
+    feature: [
+        '四层结构为：梳理纤网、纺粘布、浆粕、梳理纤网',
+        '组织致密，擦拭性强',
+        '优异的吸液能力，兼顾良好的吸油性和吸水性',
+        '产品结构均匀，使用强力高，清洁能力强'
+    ],
+    params: [
+        {
+            key: '产品规格',
+            value: '53gsm-100gsm'
+        },
+        {
+            key: '最大幅宽',
+            value: '3200mm'
+        }
+    ],
+    detail: [
+        {
+            title: '湿巾领域',
+            img: `<img src="./images/product/5.3.png">`
+        },
+        {
+            title: '家用清洁领域',
+            img: `<img src="./images/product/5.5.png">`
+        },
+        {
+            title: '食品、医药、化工行业',
+            img: `<img src="./images/product/5.2.png">`
+        },
+        {
+            title: '机械加工、汽车制造，汽车美容护理行业',
+            img: `<img src="./images/product/5.4.png">`
         }
     ]
 };

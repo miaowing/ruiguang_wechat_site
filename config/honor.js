@@ -52,7 +52,7 @@ export let honors = [
         title: '十佳纳税人'
     },
     {
-        img: './images/honor/6.jpg',
+        img: './images/honor/6.png',
         title: 'ANFA会员单位'
     }
 ];

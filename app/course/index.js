@@ -3,7 +3,9 @@
  */
 import Vue from 'vue';
 import Template from './template.html';
-import {courses} from '../../config/course';
+import {
+    courses
+} from '../../config/course';
 
 // global style
 import '../index.less';

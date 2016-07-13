@@ -3,7 +3,9 @@
  */
 import Vue from 'vue';
 import Template from './template.html';
-import {companyDescription} from '../../config/description';
+import {
+    companyDescription
+} from '../../config/description';
 
 // global style
 import '../index.less';
