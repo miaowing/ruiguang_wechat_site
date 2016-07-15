@@ -5,13 +5,31 @@
         </div>
         <img v-bind:src="img">
         <div class="panel">
-            <div class="row">
-                <div class="item item-left"><a href="./description.html">公司介绍</a></div>
-                <div class="item item-right"><a href="./course.html">发展历程</a></div>
+            <div class="left">
+                <div class="item item-left">
+                    <a v-bind:href="menu.left.url">
+                    <img v-bind:src="menu.left.img"><span>{{menu.left.name}}</span>
+                    </a>
+                </div>
             </div>
-            <div class="row">
-                <div class="item item-left"><a href="./device.html">装备设备</a></div>
-                <div class="item item-right"><a href="./honor.html">荣誉资质</a></div>
+            <div class="right">
+                <div class="item item-right top-right">
+                    <a v-bind:href="menu.topRight.url">
+                        <img v-bind:src="menu.topRight.img"><span>{{menu.topRight.name}}</span>
+                    </a>
+                </div>
+                <div class="sub-item">
+                    <div class="item item-right">
+                        <a v-bind:href="menu.bottomRight.url">
+                            <img v-bind:src="menu.bottomRight.img"><span>{{menu.bottomRight.name}}</span>
+                        </a>
+                    </div>
+                    <div class="item item-left">
+                        <a v-bind:href="menu.bottomLeft.url">
+                            <img v-bind:src="menu.bottomLeft.img"><span>{{menu.bottomLeft.name}}</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 

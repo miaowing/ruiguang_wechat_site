@@ -15,7 +15,5 @@
     <div class="product-item" v-for="detail in product.detail">
         <h3>{{detail.title}}</h3>
         <div v-html="detail.img"></div>
-        <p class="product-description" v-html="detail.description"></p>
-        <p v-if="detail.type"><span>产品品种:</span>{{detail.type}}</p>
     </div>
 </div>

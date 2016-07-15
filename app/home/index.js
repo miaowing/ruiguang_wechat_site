@@ -4,7 +4,7 @@
 import Vue from 'vue';
 import Template from './template.html';
 
-import {img, bottomImg, logoImg} from '../../config/home';
+import {img, bottomImg, logoImg, menu} from '../../config/home';
 
 // global style
 import '../index.less';
@@ -19,6 +19,7 @@ new Vue({
         message: 'Hello Vue.js!',
         img: img,
         bottomImg: bottomImg,
-        logoImg: logoImg
+        logoImg: logoImg,
+        menu: menu
     }
-})
+});
