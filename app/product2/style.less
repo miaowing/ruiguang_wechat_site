@@ -42,10 +42,7 @@ body {
 
   .detail-params {
     background-color: #fff;
-    margin: 10px;
     padding: 15px;
-    border: 1px solid #eee;
-    border-radius: 4px;
 
     li {
       position: relative;
@@ -69,6 +66,44 @@ body {
         .value {
           padding-bottom: 0;
         }
+      }
+    }
+  }
+
+  .product-item {
+    background-color: #fff;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+
+    h3 {
+      font-size: 14px;
+      font-weight: normal;
+      background-color: #57c686;
+      color: rgba(255, 255, 255, 0.9);
+      padding: 5px 15px;
+      border-radius: 4px 4px 0 0;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      padding: 0 15px;
+
+      span {
+        color: #57c686;
+      }
+    }
+
+    .product-description {
+      padding: 0 15px;
+      text-indent: 2em;
+
+      &:first-letter {
+        color: #57c686;
+        font-size: large;
       }
     }
   }

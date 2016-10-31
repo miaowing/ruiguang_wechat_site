@@ -40,12 +40,12 @@ export let menu = {
     },
     topRight: {
         name: '发展历程',
-        img: './images/ruihua_all.png',
+        img: './images/fazhanlicheng.png',
         url: './course.html'
     },
     bottomRight: {
         name: '荣誉资质',
-        img: './images/honor/6.png',
+        img: './images/home_rongyu.png',
         url: './honor.html'
     },
     bottomLeft: {

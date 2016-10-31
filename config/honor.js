@@ -41,7 +41,7 @@ export let honors = [
     },
     {
         img: './images/honor/1-4.png',
-        title: '产品开发贡献将'
+        title: '产品开发贡献奖'
     },
     {
         img: './images/honor/2.jpg',
@@ -53,7 +53,11 @@ export let honors = [
     },
     {
         img: './images/honor/6.png',
-        title: 'ANFA会员单位'
+        title: '中国驰名商标'
+    },
+    {
+        img: './images/honor/7.png',
+        title: 'CNITA 副会长单位'
     }
 ];
 

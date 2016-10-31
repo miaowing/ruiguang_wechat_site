@@ -4,10 +4,19 @@
         <p>{{product.description}}</p>
     </div>
     <div v-html="product.imgs[1]"></div>
-    <ul class="detail-params">
-        <li v-for="param in product.params">
-            <span class="key">{{param.key}}:</span>
-            <span class="value">{{param.value}}</span>
-        </li>
-    </ul>
+    <div class="product-item">
+        <h3>应用领域</h3>
+        <ul class="detail-params">
+            <li v-for="param in product.params">
+                <span class="key">{{param.key}}:</span>
+                <span class="value">{{param.value}}</span>
+            </li>
+        </ul>
+    </div>
+    <div class="product-item" v-for="detail in product.detail">
+        <h3>{{detail.title}}</h3>
+        <div v-html="detail.img"></div>
+        <p class="product-description">{{detail.description}}</p>
+        <p v-if="detail.type"><span>产品品种:</span>{{detail.type}}</p>
+    </div>
 </div>

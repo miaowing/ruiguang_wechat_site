@@ -13,7 +13,7 @@ export let spProduct = {
         `<img src="./images/product/2.1.png">`
     ],
     description: `
-        将湿法形成的木浆纤维直接通过水刺种植至纺粘产品的空隙中，产品经过高温花纹热轧机后，既具备了纺织面料的特点，又不掉绒，既形成了超高的吸液能力，又有高强力作为支撑,是医用、工业理想擦布产品。
+        将湿法形成的木浆纤维直接通过水刺种植至纺粘产品的空隙之中，产品经过高温花纹热轧机后，既具备了纺织面料的特点，又不掉绒；既形成了超高的吸液能力，又有高强力作为支撑，是医用、工业理想擦布产品。
     `,
     params: [
         {
@@ -27,6 +27,15 @@ export let spProduct = {
         {
             key: '工业用品',
             value: '精密仪器、电子行业、印刷行业等专业领域用擦布。'
+        }
+    ],
+    detail: [
+        {
+            title: '产品特点',
+            img: ``,
+            description: `
+                特殊热轧花型和工艺控制掉屑和起毛问题; 手感硬挺，擦拭效果好; 单侧超强吸水，另一侧具有防水功能。
+            `
         }
     ]
 };
@@ -54,6 +63,13 @@ export let kechongsan = {
         }
     ],
     detail: [
+        {
+            title: '产品特点',
+            img: ``,
+            description: `
+                突出的环保性能，可100%生物降解, 优异的可冲散性能，可直接冲入马桶; 良好的湿态断裂强力，完全保证上机使用; 超强的吸水性能，湿态更柔软、亲肤性好且无刺激。
+            `
+        },
         {
             title: '平纹可冲散产品',
             img: `<img src="./images/product/1.3.png">`,
@@ -191,7 +207,8 @@ export let latestProduct = {
     title: 'CSPC复合产品',
     feature: [
         '四层结构为：梳理纤网、纺粘布、浆粕、梳理纤网',
-        '组织致密，擦拭性强',
+        '组织致密，手感柔软，擦拭性强',
+        '提花高度高，立体感强',
         '优异的吸液能力，兼顾良好的吸油性和吸水性',
         '产品结构均匀，使用强力高，清洁能力强'
     ],
@@ -207,19 +224,15 @@ export let latestProduct = {
     ],
     detail: [
         {
-            title: '湿巾领域',
+            title: '婴儿湿巾、清洁湿巾领域',
             img: `<img src="./images/product/5.3.png">`
         },
         {
-            title: '家用清洁领域',
-            img: `<img src="./images/product/5.5.png">`
-        },
-        {
-            title: '食品、医药、化工行业',
+            title: '个人护理擦巾',
             img: `<img src="./images/product/5.2.png">`
         },
         {
-            title: '机械加工、汽车制造，汽车美容护理行业',
+            title: '厨房、卫生间等家用清洁领域',
             img: `<img src="./images/product/5.4.png">`
         }
     ]

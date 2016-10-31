@@ -1,3 +1,8 @@
-<div id="home">
+<div id="home" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
     <div id="mapContainer"></div>
+    <div class="btn-group">
+        <button type="button" v-on:click="ruiguang()" v-bind:class="{'active': active == 'ruiguang'}">瑞光</button>
+        <button type="button" v-on:click="ruiyuan()" v-bind:class="{'active': active == 'ruiyuan'}">瑞源</button>
+        <button type="button" v-on:click="ruihua()" v-bind:class="{'active': active == 'ruihua'}">瑞华</button>
+    </div>
 </div>
