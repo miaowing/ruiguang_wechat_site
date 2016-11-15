@@ -160,7 +160,7 @@ export let fangrongProduct = {
         },
         {
             key: '卫生领域',
-            value: '妇女卫生巾、婴儿尿裤、承认尿裤等'
+            value: '妇女卫生巾、婴儿尿裤、成人尿裤等'
         },
         {
             key: '工、农业',
@@ -229,7 +229,7 @@ export let latestProduct = {
         },
         {
             title: '个人护理擦巾',
-            img: `<img src="./images/product/5.2.png">`
+            img: `<img src="./images/product/5.2.jpg">`
         },
         {
             title: '厨房、卫生间等家用清洁领域',
