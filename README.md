@@ -17,15 +17,15 @@
 1. 上传build目录至服务器指定的目录下
 2. 登录微信公众平台修改底部菜单, 标题与URl对应如下:
 
-http://www.example.com/build/index.html - 首页
-http://www.example.com/build/description.html - 走进瑞光-公司介绍
-http://www.example.com/build/course.html - 走进瑞光-发展历程
-http://www.example.com/build/honor.html - 走进瑞光-荣誉资质
-http://www.example.com/build/device.html - 走进瑞光-设备装备
-http://www.example.com/build/contact.html - 联系我们-联系方式
-http://www.example.com/build/location.html - 联系我们-我的位置
-http://www.example.com/build/product1.html - 产品中心-可冲散水刺法非织造布-丝瑞洁
-http://www.example.com/build/product2.html - 产品中心-SP湿法复合非织造布
-http://www.example.com/build/product3.html - 产品中心-水刺法非织造布
-http://www.example.com/build/product4.html - 产品中心-纺熔法非织造布    
-http://www.example.com/build/product5.html - 产品中心-新品推荐
+http://www.example.com/build/index.html - 首页    
+http://www.example.com/build/description.html - 走进瑞光-公司介绍    
+http://www.example.com/build/course.html - 走进瑞光-发展历程    
+http://www.example.com/build/honor.html - 走进瑞光-荣誉资质    
+http://www.example.com/build/device.html - 走进瑞光-设备装备    
+http://www.example.com/build/contact.html - 联系我们-联系方式    
+http://www.example.com/build/location.html - 联系我们-我的位置    
+http://www.example.com/build/product1.html - 产品中心-可冲散水刺法非织造布-丝瑞洁    
+http://www.example.com/build/product2.html - 产品中心-SP湿法复合非织造布    
+http://www.example.com/build/product3.html - 产品中心-水刺法非织造布    
+http://www.example.com/build/product4.html - 产品中心-纺熔法非织造布      
+http://www.example.com/build/product5.html - 产品中心-新品推荐    
